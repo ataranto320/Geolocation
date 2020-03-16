@@ -7,4 +7,7 @@ navigator.geolocation.watchPosition((data) => {
     speed.textContent = data.coords.speed;
     // speed.textContent = Math.round(data.coords.speed); // rounding
     arrow.style.transform = `rotate(${data.coords.heading}deg)`;
+}, (err) => {
+    console.err(err);
+    alert("Where am I?");
 });
