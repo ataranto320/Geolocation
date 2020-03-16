@@ -1,0 +1,19 @@
+{
+  "name": "geolocation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "javascript.js",
+  "scripts": {
+    "start": "browser-sync start --directory --server --files \"*.css, *.html, *.js\" --https"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ataranto320/Geolocation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ataranto320/Geolocation/issues"
+  },
+  "homepage": "https://github.com/ataranto320/Geolocation#readme"
+}

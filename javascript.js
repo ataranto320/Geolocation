@@ -11,3 +11,9 @@ navigator.geolocation.watchPosition((data) => {
     console.err(err);
     alert("Where am I?");
 });
+
+// {
+//     "start": "browser-sync start --directory --server --files \"*.css, *.html, *.js\" --https"
+//   },
+
+// above for npm in package.json. looking into, will fix start issues.
